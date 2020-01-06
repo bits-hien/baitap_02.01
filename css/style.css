@@ -1,0 +1,116 @@
+.header {
+  background-image: url("../anh/banner@2x.png");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 510px;
+  text-align: center; }
+
+.hug1 {
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 30px; }
+
+.signin {
+  font-size: 10px;
+  color: green;
+  border: 2px solid green;
+  border-radius: 15px; }
+
+.ti-gift {
+  font-size: 30px;
+  height: auto; }
+
+.ti-alarm-clock {
+  font-size: 30px;
+  height: auto; }
+
+.ti-thumb-up {
+  font-size: 30px;
+  height: auto; }
+
+.justify-content-center {
+  margin-bottom: 15px; }
+  .justify-content-center div {
+    padding: 20px;
+    padding-right: 80px;
+    padding-bottom: 0px; }
+
+.text {
+  font-size: 10px;
+  margin: 15px;
+  text-align: justify; }
+
+.signNow {
+  width: 80pt;
+  height: 20pt;
+  border-radius: 20px;
+  font-size: 10px;
+  background-image: -webkit-gradient(linear, left top, right top, from(#429321), to(#b4ec51));
+  background-image: linear-gradient(to right, #429321, #b4ec51); }
+
+.today {
+  margin-top: 30px;
+  -webkit-box-shadow: 0 15px 35px 0 rgba(0, 0, 0, 0.1);
+          box-shadow: 0 15px 35px 0 rgba(0, 0, 0, 0.1);
+  padding-bottom: 10px;
+  padding-left: 80px;
+  padding-right: 80px; }
+  .today img {
+    width: 400px;
+    height: 250px; }
+
+.ti-bookmark-alt {
+  margin-right: 10px;
+  font-size: 15px;
+  text-align: center; }
+
+.report {
+  margin: 0px;
+  margin-top: 30px;
+  padding-left: 80px;
+  padding-right: 80px; }
+  .report img {
+    width: 400px;
+    height: 250px; }
+
+.radius {
+  background-image: -webkit-gradient(linear, left top, right top, from(#429321), to(#b4ec51));
+  background-image: linear-gradient(to right, #429321, #b4ec51);
+  height: 150px; }
+
+.number {
+  border: 2px solid green;
+  border-radius: 100%;
+  text-align: center center; }
+
+.number1 {
+  width: 5px;
+  height: 5px; }
+
+.ti-write {
+  height: 20px;
+  width: 20px; }
+
+.circle {
+  height: 107px;
+  width: 107px;
+  border: 2.5px solid white;
+  border-radius: 100px;
+  padding: 20px; }
+  .circle .ti-bookmark-alt {
+    font-size: 20px; }
+
+.small-circle {
+  height: 40px;
+  width: 40px;
+  border: 2.5px solid white;
+  border-radius: 100px; }
+
+/*# sourceMappingURL=style.css.map */
