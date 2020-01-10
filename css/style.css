@@ -27,6 +27,9 @@
   .header div .icons-header div {
     padding: 0 40px 0 40px; }
 
+.header-header {
+  padding-right: 20.83%; }
+
 .justify-content-end {
   margin-right: 60px; }
 
@@ -37,7 +40,7 @@
   border-radius: 15px; }
 
 .ti-gift, .ti-alarm-clock, .ti-thumb-up {
-  font-size: 30px; }
+  font-size: 48px; }
 
 .text {
   font-size: 14px;
@@ -46,10 +49,10 @@
   text-align: justify; }
 
 .sign-now {
-  width: 80px;
-  height: 20px;
+  width: 195px;
+  height: 50px;
   border-radius: 20px;
-  font-size: 10px;
+  font-size: 16px;
   color: white;
   background-image: linear-gradient(to right, #429321, #b4ec51); }
 
@@ -63,8 +66,8 @@
   padding: 0 80px 0 80px; }
   .report img {
     width: 100%; }
-  .report div .ti-write {
-    font-size: 20px;
+  .report .ti-write {
+    font-size: 30px;
     text-align: center; }
 
 .radius {
@@ -72,7 +75,7 @@
   height: 302px;
   color: white; }
   .radius div div div {
-    padding: 30px; }
+    padding: 50px; }
     .radius div div div div {
       padding: 30px; }
 
@@ -124,15 +127,33 @@
       margin-right: 5px; }
     .members div div div .text {
       margin: 0; }
+  .members .ti-user {
+    color: black; }
 
 .icon {
   font-size: 30px;
-  padding-right: 5px; }
+  padding-right: 5px;
+  padding-top: 5px; }
 
 .icon-cus {
   margin-right: 5px;
   color: #8bc34a;
   margin-top: 10px; }
+
+.customer {
+  text-align: justify;
+  box-shadow: 0 0px 15px 0 rgba(0, 0, 0, 0.1);
+  margin: 30px;
+  color: black; }
+  .customer div {
+    margin-bottom: 10px;
+    font-size: 14px; }
+    .customer div .ti-lock, .customer div .ti-cup, .customer div .ti-stats-up {
+      color: #8bc34a;
+      margin: 10px;
+      font-size: 18px; }
+  .customer .ti-face-smile {
+    color: black; }
 
 .slide-cus {
   background-image: url("../img/rectangle3.png");
@@ -146,7 +167,9 @@
   .slide-cus div {
     padding: 0 40px 0 40px; }
     .slide-cus div div div {
-      padding: 10px; }
+      padding: 0px; }
+  .slide-cus p {
+    color: white; }
 
 .carousel-indicators li {
   padding-top: opx;
@@ -170,5 +193,25 @@
       padding-top: 0px; }
   .text-icon .ti-quote-right {
     padding-top: 100px; }
+
+.project {
+  margin: 30px 0px 30px 0;
+  padding: 0 80px 0 80px; }
+  .project img {
+    width: 100%; }
+  .project .ti-calendar {
+    font-size: 30px;
+    text-align: center;
+    margin-right: 5px; }
+
+footer {
+  background-color: #39474e;
+  text-align: center;
+  color: white;
+  font-size: 10px;
+  padding: 30px 80px 30px 80px; }
+  footer .text-footer {
+    color: #8bc34a;
+    font-size: 14px; }
 
 /*# sourceMappingURL=style.css.map */

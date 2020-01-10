@@ -47,6 +47,10 @@
     }
 }
 
+.header-header {
+    padding-right: 20.83%;
+}
+
 .justify-content-end {
     margin-right: 60px;
 }
@@ -59,7 +63,7 @@
 }
 
 .ti-gift,.ti-alarm-clock,.ti-thumb-up {
-    font-size: 30px;
+    font-size: 48px;
 }
 
 .text {
@@ -72,10 +76,10 @@
 $background-image: linear-gradient(to right, rgb(66,147,33), rgb(180,236,81));
 
 .sign-now {
-    width: 80px;
-    height: 20px;
+    width: 195px;
+    height: 50px;
     border-radius: 20px;
-    font-size: 10px;
+    font-size: 16px;
     color: white;
     background-image: $background-image;
 }
@@ -95,11 +99,9 @@ $background-image: linear-gradient(to right, rgb(66,147,33), rgb(180,236,81));
     img {
         width: 100%;
     }
-    div {
-        .ti-write {
-            font-size: 20px;
-            text-align: center;
-         }
+    .ti-write {
+        font-size: 30px;
+        text-align: center;
     }
 }
 
@@ -110,7 +112,7 @@ $background-image: linear-gradient(to right, rgb(66,147,33), rgb(180,236,81));
     div{
         div {
             div {
-                padding: 30px;
+                padding: 50px;
                 div {
                     padding: 30px;
                 }
@@ -185,17 +187,42 @@ $background-image: linear-gradient(to right, rgb(66,147,33), rgb(180,236,81));
             }
         }
     }
+    .ti-user {
+        color: black;
+    }
 }
 
 .icon {
     font-size: 30px;
-    padding-right: 5px;
+    padding: {
+        right: 5px;
+        top: 5px;
+    }
 }
 
 .icon-cus {
     margin-right: 5px;
     color: rgb(139,195,74);
     margin-top: 10px;
+}
+
+.customer {
+    text-align: justify;
+    box-shadow: 0 0px 15px 0 rgba(0, 0, 0, 0.1);
+    margin: 30px;
+    color: black;
+    div{
+        margin-bottom: 10px;
+        font-size: 14px;
+        .ti-lock,.ti-cup,.ti-stats-up {
+            color: rgb(139,195,74);
+            margin: 10px;
+            font-size: 18px;
+        }
+    }
+    .ti-face-smile {
+        color: black;
+    }
 }
 
 .slide-cus {
@@ -209,13 +236,16 @@ $background-image: linear-gradient(to right, rgb(66,147,33), rgb(180,236,81));
     text-align: center;
     color: white;
     margin-top: 30px;
-    div{
+    div {
         padding: 0 40px 0 40px;
-        div{
+        div {
             div {
-                padding: 10px;
+                padding: 0px;
             }
         }
+    }
+    p {
+        color: white;
     }
 }
 
@@ -247,5 +277,30 @@ $background-image: linear-gradient(to right, rgb(66,147,33), rgb(180,236,81));
     }
     .ti-quote-right {
         padding-top: 100px;
+    }
+}
+
+.project {
+    margin: 30px 0px 30px 0;
+    padding: 0 80px 0 80px;
+    img {
+        width: 100%;
+    }
+    .ti-calendar {
+        font-size: 30px;
+        text-align: center;
+        margin-right: 5px;
+    }
+}
+
+footer {
+    background-color: rgb(57,71,78);
+    text-align: center;
+    color: white;
+    font-size: 10px; 
+    padding: 30px 80px 30px 80px;     
+    .text-footer {
+        color: rgb(139,195,74);
+        font-size: 14px;
     }
 }
